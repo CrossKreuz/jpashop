@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/Desktop/jpashop_db;MVCC=TRUE
+    #    MVCC는 뭐야. 넣으면 좋기는 하다고 함
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
