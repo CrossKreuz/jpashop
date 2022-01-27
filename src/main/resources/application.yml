@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:tcp://localhost/~/Desktop/jpashop_db;MVCC=TRUE
+    url: jdbc:h2:tcp://localhost/~/Desktop/jpashop_db;
     #    MVCC는 뭐야. 넣으면 좋기는 하다고 함
     username: sa
     password:
@@ -20,3 +20,4 @@ logging:
   level:
     org.hibernate.SQL: debug
 #    hibernate가 생성하는 모든 sql이 다 보인다.
+    org.hibernate.type: trace
